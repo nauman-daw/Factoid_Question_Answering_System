@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<corpus>
+<s id="0">
+  <words pos="true">
+    <word ind="1" pos="WP">what</word>
+    <word ind="2" pos="VBZ">is</word>
+    <word ind="3" pos="NN">apple</word>
+  </words>
+  <tree style="penn">
+(ROOT
+  (SBARQ
+    (WHNP (WP what))
+    (SQ (VBZ is)
+      (NP (NN apple)))))
+  </tree>
+<dependencies style="typed">
+  <dep type="root">
+    <governor idx="0">ROOT</governor>
+    <dependent idx="1">what</dependent>
+  </dep>
+  <dep type="cop">
+    <governor idx="1">what</governor>
+    <dependent idx="2">is</dependent>
+  </dep>
+  <dep type="nsubj">
+    <governor idx="1">what</governor>
+    <dependent idx="3">apple</dependent>
+  </dep>
+</dependencies>
+</s>
+
+</corpus>
