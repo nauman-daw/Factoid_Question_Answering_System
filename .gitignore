@@ -1,0 +1,9 @@
+# Prerequisites
+./GoogleNews-vectors-negative300.bin
+./stanford-ner-2015-12-09/*
+./stanford-parser-full-2015-12-09/*
+./stanford-postagger-2015-12-09/*
+
+# Class
+*.pyc
+
