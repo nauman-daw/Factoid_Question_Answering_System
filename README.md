@@ -16,4 +16,4 @@ $ python QAInteractive.py
 Nauman Dawalatabad, Krishnaraj, and Jom Kuriakose
 
 # License
-Licensed under the Apache License, Version 2.0. Please see license.md file
+Licensed under the Apache License, Version 2.0. Please see [LICENSE.md](LICENSE.md)  file
