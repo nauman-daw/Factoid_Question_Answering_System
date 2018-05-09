@@ -6,9 +6,9 @@ This system is based on knowledge based factoid question-answering. It has 2 mod
 - Python 2.7, NumPy
 - Google's Word2Vec model
 - Stanford's NER, Parser and POS-tagger
-- Need to keep all above in the current directory
 
 # Usage
+- Keep Word2Vec model, NER, Parser and POS-tagger in the code directory or provide respective paths in the code.
 ```
 $ python QAInteractive.py
 ```
